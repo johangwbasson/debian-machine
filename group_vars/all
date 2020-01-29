@@ -48,6 +48,7 @@ desktop:
     - papirus-icon-theme
     - lightdm-gtk-greeter-settings
     - snapd
+    - libnotify-bin
 
 browser:
     - chromium
