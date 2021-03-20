@@ -1,0 +1,81 @@
+[/]
+desktop-effects=false
+desktop-effects-close-effect='traditional'
+desktop-effects-close-time=120
+desktop-effects-close-transition='easeOutQuad'
+desktop-effects-map-effect='traditional'
+desktop-effects-map-time=100
+desktop-effects-map-transition='easeOutQuad'
+desktop-effects-maximize-effect='none'
+desktop-effects-maximize-time=100
+desktop-effects-maximize-transition='easeInExpo'
+desktop-effects-minimize-effect='traditional'
+desktop-effects-minimize-time=160
+desktop-effects-minimize-transition='easeInQuad'
+desktop-effects-on-dialogs=false
+desktop-effects-on-menus=false
+desktop-effects-tile-effect='none'
+desktop-effects-tile-time=100
+desktop-effects-tile-transition='easeInQuad'
+desktop-effects-unmaximize-effect='none'
+desktop-effects-unmaximize-time=100
+desktop-effects-unmaximize-transition='easeNone'
+enable-vfade=false
+enabled-applets=['panel1:right:0:systray@cinnamon.org:0', 'panel1:left:0:menu@cinnamon.org:1', 'panel1:left:1:show-desktop@cinnamon.org:2', 'panel1:left:2:panel-launchers@cinnamon.org:3', 'panel1:left:3:window-list@cinnamon.org:4', 'panel1:right:1:keyboard@cinnamon.org:5', 'panel1:right:2:notifications@cinnamon.org:6', 'panel1:right:3:removable-drives@cinnamon.org:7', 'panel1:right:4:user@cinnamon.org:8', 'panel1:right:5:network@cinnamon.org:9', 'panel1:right:6:bluetooth@cinnamon.org:10', 'panel1:right:7:power@cinnamon.org:11', 'panel1:right:8:calendar@cinnamon.org:12', 'panel1:right:9:sound@cinnamon.org:13']
+favorite-apps=['firefox-esr.desktop', 'cinnamon-settings.desktop', 'org.gnome.Terminal.desktop', 'nemo.desktop']
+next-applet-id=14
+panel-launchers=['DEPRECATED']
+startup-animation=false
+
+[desktop/background/slideshow]
+delay=15
+image-source='xml:///usr/share/gnome-background-properties/adwaita.xml'
+
+[desktop/interface]
+cursor-blink-time=1200
+cursor-theme='Breeze_Snow'
+font-name='Liberation Sans 9'
+gtk-theme='Adapta-Nokto-Eta'
+icon-theme='Obsidian-Aqua-SemiLight'
+scaling-factor=uint32 0
+text-scaling-factor=1.0
+
+[desktop/keybindings]
+custom-list=['custom1', 'custom0', '__dummy__']
+
+[desktop/keybindings/custom-keybindings/custom0]
+binding=['<Super>p']
+command='rofi -show run'
+name='Rofi Run'
+
+[desktop/keybindings/custom-keybindings/custom1]
+binding=['<Super>w']
+command='rofi -show window'
+name='Rofi Windows'
+
+[desktop/keybindings/media-keys]
+logout=['<Shift><Super>q']
+terminal=['<Super>Return']
+video-outputs=['XF86Display']
+
+[desktop/keybindings/wm]
+close=['<Shift><Super>c']
+maximize=['<Shift><Super>m']
+minimize=['<Shift><Super>n']
+
+[desktop/sound]
+event-sounds=false
+
+[desktop/wm/preferences]
+theme='Adapta-Nokto-Eta'
+titlebar-font='Liberation Sans 10'
+
+[muffin]
+desktop-effects=false
+
+[settings-daemon/peripherals/keyboard]
+delay=uint32 500
+repeat-interval=uint32 30
+
+[theme]
+name='Adapta-Nokto'

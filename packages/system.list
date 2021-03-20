@@ -1,0 +1,8 @@
+ufw
+gufw
+tlp
+iwd
+network-manager-openvpn
+network-manager-openvpn-gnome
+openssh-server
+wireless-tools

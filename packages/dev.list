@@ -1,0 +1,17 @@
+git
+gitk
+exuberant-ctags
+nodejs
+npm
+pandoc
+openjdk-11-jdk
+openjdk-17-jdk
+maven
+gradle
+
+cmake
+pkg-config
+libfreetype6-dev
+libfontconfig1-dev
+libxcb-xfixes0-dev
+python3

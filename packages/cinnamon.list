@@ -1,0 +1,15 @@
+gnome-keyring
+gnome-terminal
+lightdm
+lightdm-settings
+lightdm-gtk-greeter
+slick-greeter
+nemo-fileroller
+network-manager
+python3-xdg
+redshift
+redshift-gtk
+xdg-user-dirs
+xdg-user-dirs-gtk
+xdg-utils
+gnome-software-plugin-snap
