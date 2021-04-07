@@ -53,6 +53,6 @@ fi
 
 sudo apt install apt-listbugs apt-listchanges
 
-dconf load /org/cinnamon/ conf/cinnamon.settings
+pdconf load /org/cinnamon/ conf/cinnamon.settings
 
 sudo ln -s /var/lib/snapd/desktop/applications /usr/share/applications/snapd

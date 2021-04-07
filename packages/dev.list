@@ -5,7 +5,6 @@ nodejs
 npm
 pandoc
 openjdk-11-jdk
-openjdk-17-jdk
 maven
 gradle
 
@@ -15,3 +14,4 @@ libfreetype6-dev
 libfontconfig1-dev
 libxcb-xfixes0-dev
 python3
+checkinstall

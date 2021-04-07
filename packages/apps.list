@@ -24,3 +24,6 @@ meld
 chromium
 snapd
 rofi
+megatools
+timeshift
+docker-compose
